@@ -1,0 +1,56 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+  }
+  
+  /*  Set the font */
+  body {
+    font-family: "Helvetica", sans-serif;
+  }
+  
+  /* STYLES */
+  /* Write your CSS below */ 
+
+  .title{
+    /* image */
+    background-image: url(apple-pie.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    /* text*/
+    font-size: 80px;
+    align-items: center;
+    align-content: center;text-align: center;
+    color: gainsboro; 
+   }
+
+  .text-intro{
+    align-content: center;
+    padding: 100px;
+  } 
+
+  .image-recipe{
+    display: block; /* This makes the image a block-level element */
+    margin: 0 auto; /* This centers the image horizontally within its container */
+  }
+
+  .ingridients-section ul {
+    margin-left: 33vw; 
+    list-style-type: none;
+    content: "-";
+  } 
+  .ingridients-section h2 {
+    margin-left: 50vw;
+  }
